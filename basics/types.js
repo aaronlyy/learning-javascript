@@ -56,3 +56,8 @@ let myObj = {
     location: "earth"
 };
 console.log(myObj.name);
+
+// type.toString()
+const k = true;
+const l = k.toString();
+console.log(typeof(l));
