@@ -56,6 +56,10 @@ let myObj = {
     location: "earth"
 };
 console.log(myObj.name);
+myObj.age = 10;
+console.log(myObj["age"]);
+delete myObj.location;
+console.log(myObj.location);
 
 // type.toString()
 const k = true;
