@@ -24,3 +24,7 @@ console.log(person);
 if ("name" in person) {
     console.log("Property 'name' exists!");
 }
+
+// object destructuring
+let {eyecolor: eye, age: age} = person;
+console.log(eye, age);
