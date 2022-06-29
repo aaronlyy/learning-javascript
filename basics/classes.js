@@ -22,3 +22,25 @@ class Person {
 
 let p1 = new Person("aaron", 20, "earth");
 console.log(p1.name);
+
+// check if object is instance of a specific class
+console.log(p1 instanceof Person);
+
+
+// class expressions
+let Car = class {
+    constructor(manufact) {
+        this.manufact = manufact;
+    }
+
+   get manufact() {
+        return this._manufact;
+    }
+
+    set manufact(manufact) {
+        this._manufact = manufact;
+    }
+}
+
+let m2 = new Car("bmw");
+console.log(car.manufact);
